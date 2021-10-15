@@ -1,4 +1,4 @@
-# MyProjects
+# FSU Project Coursework
 1. [MyMusic README.md](MyMusic/README.md "My MyMusic README.md file")
 	- Completed MyMusic Android app
 	- MyMusic is designed to play music I like
