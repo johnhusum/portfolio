@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # MyProjects
 1. [MyMusic Android App](MyMusic/README.md "My MyMusic README.md file")
+=======
+# FSU Project Coursework
+1. [MyMusic README.md](MyMusic/README.md "My MyMusic README.md file")
+>>>>>>> 962a73cdee8791551e6304a44ad3520b0b35de56
 	- Completed MyMusic Android app
 	- MyMusic is designed to play music I like
 	- Provided screenshots as proof of concept
