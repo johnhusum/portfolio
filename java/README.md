@@ -1,6 +1,6 @@
 # Java Skillsets
 
-###Array & Data Validation
+## Array & Data Validation
 
 ![runtime](img/array.gif)
 
