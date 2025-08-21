@@ -16,9 +16,6 @@
 	- Provides example of ERD
 	- Provides Data Dictionary
 
-4. [A Simple Chess Game (WIP)]()
-    - making a command prompt game of chest
-
-5. [Java Skillsets](java/README.md "My Java Skillsets README.md file")
+4. [Java Skillsets](java/README.md "My Java Skillsets README.md file")
 	- Provides code snippets
 	- Animated screenshots of runtime functionality
