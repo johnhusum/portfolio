@@ -81,7 +81,7 @@ public class ArrayValid
 ```
 ## Hiku
 
-![runtime](img/hiku.gif)
+![runtime](img/Hiku.gif)
 
 ###### Write.java
 
