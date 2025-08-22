@@ -17,5 +17,8 @@
 	- Provides Data Dictionary
 
 4. [Java Skillsets](java/README.md "My Java Skillsets README.md file")
-	- Provides code snippets
+	- Provides code snippets practices 
 	- Animated screenshots of runtime functionality
+
+5. [Fumo Simulator (wip)](FumoSimulator/README.md "My Java Skillsets README.md file")
+	- Just a simple game to practice and refresh on java concepts
