@@ -22,4 +22,4 @@
 
 5. [Fumo Simulator (wip)](FumoSimulator/README.md "My Java Skillsets README.md file")
 	- Just a simple game to practice and refresh on Java concepts
- 	- based on tutorials by www.youtube.com/@RyiSnow 
+ 	- Based on tutorials by www.youtube.com/@RyiSnow 
