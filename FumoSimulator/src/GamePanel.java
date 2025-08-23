@@ -1,16 +1,22 @@
+/*TODO
+add character sprite and animation
+add custom resolution options
+fix issues with player speed when changing scale
+*/
+
 import java.awt.*;
 import javax.swing.*;
 
 public class GamePanel extends JPanel implements Runnable
 {
-    final int originalTileSize = 16; //16x16 tile
-    final int scale = 3;
+    final int originalTileSize = 1; //tile
+    final int scale = 10;
 
-    final int titleSize = originalTileSize * scale; //48x48 title
-    final int maxScreenCol = 16;
-    final int maxScreenRow = 12;
-    final int screenWidth = titleSize * maxScreenCol; //768
-    final int screenHeight = titleSize * maxScreenRow; //576
+    final int tileSize = originalTileSize * scale;
+    final int maxScreenCol = 120;
+    final int maxScreenRow = 100;
+    final int screenWidth = tileSize * maxScreenCol;
+    final int screenHeight = tileSize * maxScreenRow;
 
     //SET FPS
     int FPS = 60;
@@ -18,9 +24,9 @@ public class GamePanel extends JPanel implements Runnable
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
 
-    //SET PLAYER
-    int playerX = 100;
-    int playerY = 100;
+    //SET PLAYER, SHOULD BE CENTER, CENTERED THE PLAYER 8/22
+    int playerX = screenWidth/2 - tileSize/2;  
+    int playerY = screenHeight/2 - tileSize/2;
     int playerSpeed = 4;
 
     //SET WINDOW
@@ -94,11 +100,8 @@ public class GamePanel extends JPanel implements Runnable
         super.paintComponent(g);
 
         Graphics2D g2 = (Graphics2D)g;
-
         g2.setColor(Color.white);
-
-        g2.fillRect(playerX, playerY, titleSize, titleSize);
-
+        g2.fillRect(playerX, playerY, tileSize, tileSize);
         g2.dispose();
     }
 }

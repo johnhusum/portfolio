@@ -15,4 +15,13 @@
 ###### "Before Time Began, There Was The Cube"
 ![the cube](/java/img/the_cube.gif)
 
+###### 2025-8-23
+- Made changes to [GamePanel.java](src/GamePanel.java "GamePanel")
+    - set originalTileSize from 16 to 1
+    - set scale to 10
+    - player now starts at the center
 
+- TODO
+    - add character sprite and animation
+    - add custom resolution options
+    - fix issues with player speed when changing scale
